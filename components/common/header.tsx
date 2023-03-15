@@ -21,7 +21,7 @@ export default function Header() {
 
 const Container = styled.div`
   width: 100%;
-  height: 100px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +41,7 @@ const Frame = styled.div`
   justify-content: flex-start;
 `;
 const Image = styled.img`
-  width: 140px;
+  width: 120px;
 `;
 const TextBox = styled.div`
   gap: 38px;
@@ -50,7 +50,7 @@ const TextBox = styled.div`
   justify-content: flex-start;
 `;
 const Text = styled.div`
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
 `;
 const Button = styled.button`
@@ -58,7 +58,7 @@ const Button = styled.button`
   height: 38px;
   border-radius: 20px;
   border: none;
-  font-size: 16px;
+  font-size: 14px;
   color: ${theme.whiteColor};
   background-color: ${theme.mainBlueColor};
 `;
