@@ -3,6 +3,7 @@ import Header from '../components/common/header';
 import Banner from '../components/notice/banner';
 import Post from '../components/notice/post';
 import Title from '../components/notice/title';
+import { theme } from '../styles/theme';
 
 export default function Home() {
   return (
@@ -20,4 +21,5 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  color: ${theme.blackColor};
 `;

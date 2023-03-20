@@ -29,11 +29,16 @@ const Container = styled.div`
 
 const Warning = styled.div`
   width: 100%;
-  height: 75px;
+  height: 56px;
   padding-left: 20px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   border-left: 5px solid ${theme.mainMintColor};
   background-color: ${theme.softGrayColor};
+
+  & > p {
+    font-size: 12px;
+    font-weight: 400;
+  }
 `;
