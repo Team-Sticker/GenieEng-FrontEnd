@@ -29,7 +29,7 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  width: 80%;
+  width: 800px;
   display: flex;
   align-items: center;
   justify-content: space-between;
