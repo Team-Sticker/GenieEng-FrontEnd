@@ -21,46 +21,45 @@ export default function Banner() {
 }
 
 const Container = styled.div`
-  width: 100%;
-  margin-top: 40px;
+  width: 800px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 `;
 
 const Wrapper = styled.div`
-  width: 80%;
-  height: 420px;
+  width: 100%;
+  padding: 56px 0 56px 60px;
   border-radius: 8px;
   background-image: url('/img/main/banner.png');
 `;
 
 const TextBox = styled.div`
-  margin: 76px 0 0 80px;
   color: ${theme.whiteColor};
 `;
 
 const Page = styled.p`
-  font-size: 16px;
+  font-size: 12px;
 `;
 
 const Title = styled.h1`
-  margin: 14px 0 12px 0;
-  font-size: 28px;
-  line-height: 44px;
+  margin: 10px 0 8px 0;
+  font-size: 20px;
+  line-height: 28px;
 `;
 
 const Text = styled.p`
-  font-size: 14px;
+  font-size: 10px;
 `;
 
 const Button = styled.button`
-  width: 140px;
-  height: 40px;
-  margin: 46px 0 0 80px;
+  width: 108px;
+  height: 30px;
+  margin-top: 30px;
   border: none;
   border-radius: 20px;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 600;
   color: ${theme.mainBlueColor};
   background-color: ${theme.whiteColor};

@@ -47,21 +47,21 @@ export default function Pagination({ page, updatePageValue }: props) {
 
 const Container = styled.div`
   gap: 12px;
-  margin: 50px 0 120px 0;
+  margin: 50px 0 100px 0;
   display: flex;
   align-items: center;
   justify-content: center;
 `;
 
 const Button = styled.button`
-  width: 84px;
-  height: 40px;
+  width: 64px;
+  height: 30px;
   gap: 8px;
   border: 1px solid ${theme.mainMintColor};
   border-radius: 20px;
   color: ${theme.blackColor};
   background-color: ${theme.whiteColor};
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -71,14 +71,14 @@ const Button = styled.button`
 const NumberBox = styled.div``;
 
 const NumberButton = styled.button`
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   margin: 0 4px;
   padding-bottom: 3px;
   border: solid 1px ${theme.mainMintColor};
   border-radius: 20px;
   background-color: ${theme.whiteColor};
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
 
   &[aria-current] {
@@ -91,7 +91,7 @@ const NumberButton = styled.button`
 `;
 
 const Image = styled.img`
-  width: 14px;
+  width: 12px;
 `;
 
 const LeftImage = styled(Image)``;

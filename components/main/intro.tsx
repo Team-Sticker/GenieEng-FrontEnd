@@ -32,15 +32,15 @@ export default function Intro() {
 }
 
 const Container = styled.div`
-  width: 100%;
-  margin-top: 120px;
+  width: 800px;
+  margin-top: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
 `;
 
 const Wrapper = styled.div`
-  width: 80%;
+  width: 100%;
   border-radius: 8px;
   display: flex;
   align-items: flex-start;
@@ -50,41 +50,41 @@ const Wrapper = styled.div`
 const TextBox = styled.div``;
 
 const Image = styled.img`
-  width: 96px;
+  width: 70px;
 `;
 
 const TitleBox = styled.div`
-  margin: 18px 0 20px 0;
+  margin: 14px 0;
 `;
 
 const Strong = styled.span`
   margin-right: 8px;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 600;
   color: ${theme.mainBlueColor};
 `;
 
 const Title = styled.span`
-  font-size: 32px;
+  font-size: 24px;
   color: ${theme.blackColor};
 `;
 
 const Text = styled.div`
-  font-size: 16px;
+  font-size: 12px;
 `;
 
 const Deco = styled.div`
   position: relative;
-  width: 450px;
-  height: 560px;
+  width: 350px;
+  height: 470px;
 `;
 
 const Back = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  width: 270px;
-  height: 330px;
+  width: 210px;
+  height: 250px;
   border-radius: 8px;
   background-color: ${theme.mainBlueColor};
 `;
@@ -93,8 +93,8 @@ const Front = styled.div`
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 350px;
-  height: 450px;
+  width: 270px;
+  height: 350px;
   border-radius: 8px;
   background-image: url('/img/main/deco.png');
 `;

@@ -41,15 +41,15 @@ const Container = styled.div`
   z-index: 10;
   position: absolute;
   top: 0;
-  width: 100%;
-  margin-top: 120px;
+  width: 800px;
+  margin-top: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
 `;
 
 const Wrapper = styled.div`
-  width: 80%;
+  width: 100%;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -57,8 +57,8 @@ const Wrapper = styled.div`
 `;
 
 const Frame = styled.div`
-  width: 60%;
-  height: 200px;
+  width: 70%;
+  height: 150px;
   border-radius: 8px;
   border: 0.5px solid ${theme.lightGrayColor};
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
@@ -69,11 +69,13 @@ const Frame = styled.div`
 
   & > div {
     &:first-child {
-      padding-right: 62px;
+      padding-left: 50px;
+      padding-right: 34px;
       border-right: 1px solid ${theme.lightGrayColor};
     }
     &:last-child {
-      padding-left: 62px;
+      padding-left: 34px;
+      padding-right: 50px;
     }
   }
 `;
@@ -86,8 +88,8 @@ const Cover = styled.div`
 `;
 
 const Div = styled.div`
-  height: 136px;
-  width: 300px;
+  width: 120px;
+  height: 104px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -95,21 +97,21 @@ const Div = styled.div`
 `;
 
 const Title = styled.p`
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 600;
   color: ${theme.blackColor};
 `;
 
 const Text = styled.p`
-  font-size: 12px;
+  font-size: 10px;
   color: ${theme.thinGrayColor};
   white-space: pre-wrap;
 `;
 
 const Button = styled.button`
-  width: 100px;
-  height: 30px;
-  font-size: 14px;
+  width: 76px;
+  height: 24px;
+  font-size: 10px;
   font-weight: 500;
   border-radius: 15px;
   border: 1px solid ${theme.thinGrayColor};
@@ -123,6 +125,6 @@ const Button = styled.button`
 `;
 
 const Image = styled.img`
-  height: 70px;
-  margin-left: 50px;
+  height: 65px;
+  margin-left: 34px;
 `;

@@ -58,8 +58,8 @@ export default function PostList() {
 
 const Container = styled.div`
   position: absolute;
-  top: 220px;
-  width: 80%;
+  top: 170px;
+  width: 800px;
   padding: 220px 0 100px 0;
   border-radius: 8px 8px 0 0;
   display: flex;
@@ -69,7 +69,8 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  width: 90%;
+  width: 94%;
+  height: 156px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -80,11 +81,11 @@ const Notify = styled.div``;
 const Gallery = styled.div``;
 
 const Title = styled.button`
-  padding: 5px 30px;
+  padding: 4px 16px;
   border: solid 1px ${theme.mainBlueColor};
   border-radius: 20px;
   outline: none;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   color: ${theme.mainBlueColor};
   background-color: ${theme.softGrayColor};
@@ -95,7 +96,7 @@ const Frame = styled.div`
 `;
 
 const Items = styled.div`
-  width: 460px;
+  width: 350px;
   &:last-child {
     border-bottom: 1px solid ${theme.lightGrayColor};
   }
@@ -103,16 +104,16 @@ const Items = styled.div`
 
 const TextBox = styled.div`
   width: 100%;
-  padding: 24px 0;
+  padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid ${theme.lightGrayColor};
   & > h4 {
-    font-size: 14px;
+    font-size: 10px;
   }
   & > p {
-    font-size: 14px;
+    font-size: 10px;
     color: ${theme.thinGrayColor};
   }
 `;
@@ -120,7 +121,7 @@ const TextBox = styled.div`
 const Route = styled.p`
   margin-top: 12px;
   text-align: end;
-  font-size: 14px;
+  font-size: 10px;
   color: ${theme.blackColor};
   text-decoration: underline;
 `;

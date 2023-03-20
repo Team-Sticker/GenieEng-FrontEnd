@@ -34,8 +34,8 @@ export default function Post() {
   );
 }
 const Container = styled.div`
-  width: 80%;
-  height: 946px;
+  width: 800px;
+  height: 726px;
   margin-top: 70px;
   border-radius: 8px;
   border: 1px solid ${theme.thinGrayColor};
@@ -43,8 +43,7 @@ const Container = styled.div`
 
 const TextBox = styled.div`
   width: 100%;
-  height: 86px;
-  font-size: 24px;
+  height: 66px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,10 +54,12 @@ const TitleBox = styled(TextBox)`
   border-bottom: 1px solid ${theme.thinGrayColor};
   border-radius: 8px 8px 0 0;
   font-weight: 700;
+  font-size: 18px;
 `;
 
 const ItemBox = styled(TextBox)`
   color: ${theme.blackColor};
+  font-size: 16px;
   border-bottom: 1px solid ${theme.thinGrayColor};
   &:last-child {
     border-radius: 0 0 8px 8px;

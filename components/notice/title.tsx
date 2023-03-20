@@ -16,12 +16,13 @@ export default function Title() {
 }
 
 const Container = styled.div`
-  width: 80%;
+  width: 800px;
+  margin-top: 80px;
   gap: 38px;
 
   & > h1 {
-    margin: 120px 0 38px 0;
-    font-size: 28px;
+    margin-bottom: 30px;
+    font-size: 20px;
     font-weight: 600;
   }
 `;

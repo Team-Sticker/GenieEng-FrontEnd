@@ -18,8 +18,8 @@ export default function Banner() {
 }
 
 const Container = styled.div`
-  width: 80%;
-  height: 420px;
+  width: 800px;
+  height: 320px;
   margin-top: 40px;
   border-radius: 8px;
   display: flex;
@@ -34,20 +34,20 @@ const TextBox = styled.div`
 `;
 
 const Page = styled.p`
-  font-size: 16px;
+  font-size: 12px;
 `;
 
 const Title = styled.h1`
   margin: 14px 0 12px 0;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 44px;
 `;
 
 const Text = styled.p`
-  font-size: 14px;
+  font-size: 10px;
 `;
 
 const Image = styled.img`
-  width: 260px;
+  width: 200px;
   margin-right: 80px;
 `;
