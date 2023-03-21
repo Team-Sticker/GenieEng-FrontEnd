@@ -30,7 +30,7 @@ const Container = styled.div`
 
 const Wrapper = styled.div`
   width: 100%;
-  padding: 56px 0 56px 60px;
+  padding: 63px 0 63px 60px;
   border-radius: 8px;
   background-image: url('/img/main/banner.png');
 `;
